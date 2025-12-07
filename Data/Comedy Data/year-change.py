@@ -13,8 +13,6 @@ def year_check(df):
 year_check(df_with_year)
 
 
-
-
 def year_index(df):
     missing_indices = []
     for idx, val in df['birth_year'].items():
